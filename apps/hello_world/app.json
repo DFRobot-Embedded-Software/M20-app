@@ -6,5 +6,7 @@
   "category": "示例",
   "icon": "icon.png",
   "main_file": "main.py",
-  "tags": ["示例", "入门", "Hello World"]
+  "tags": ["示例", "入门", "Hello World"],
+
+  "runtime": "uv"
 }
