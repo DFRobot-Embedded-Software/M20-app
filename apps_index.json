@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "app_id": "hello_world",
+      "name": "Hello World",
+      "version": "1.0.0",
+      "description": "一个简单的 Hello World 应用示例，演示 M20 应用的基本结构",
+      "category": "示例",
+      "author": "M20 Team",
+      "path": "apps/hello_world",
+      "icon": "icon.png",
+      "main_file": "main.py",
+      "tags": ["示例", "入门", "Hello World"]
+    }
+  ]
+}
