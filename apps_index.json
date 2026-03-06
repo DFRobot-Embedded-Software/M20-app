@@ -8,8 +8,8 @@
       "category": "示例",
       "author": "M20 Team",
       "tags": ["示例", "入门", "Hello World"],
-      "repo": "https://github.com/DFRobot-Embedded-Software/M20-app",
-      "path": "apps/hello_world",
+      "repo": "https://github.com/wxzed/M20-hello-world",
+      "download": null,
       "icon_url": "icons/hello_world.png",
       "main_file": "main.py"
     }
