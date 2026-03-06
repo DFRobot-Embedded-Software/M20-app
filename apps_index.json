@@ -7,10 +7,11 @@
       "description": "一个简单的 Hello World 应用示例，演示 M20 应用的基本结构",
       "category": "示例",
       "author": "M20 Team",
+      "tags": ["示例", "入门", "Hello World"],
+      "repo": "https://github.com/DFRobot-Embedded-Software/M20-app",
       "path": "apps/hello_world",
-      "icon": "icon.png",
-      "main_file": "main.py",
-      "tags": ["示例", "入门", "Hello World"]
+      "icon_url": "icons/hello_world.png",
+      "main_file": "main.py"
     }
   ]
 }
