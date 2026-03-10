@@ -103,4 +103,5 @@ Fork 本仓库，修改 `apps_index.json`：
 ## 📚 更多信息
 
 - [M20 应用开发指南](../M20-XML-GUI/README.md)
+- [m20gui 框架文档](../M20-XML-GUI/m20gui/)
 - [应用商店架构文档](../M20-XML-GUI/app_store/ARCHITECTURE.md)
