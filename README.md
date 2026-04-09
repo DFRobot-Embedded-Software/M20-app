@@ -100,6 +100,20 @@ Fork 本仓库，修改 `apps_index.json`：
 - `handlers.py` - 事件处理（可选）
 - `ui.xml` - 界面定义（可选）
 
+### app.json 统一规范（v1）
+
+`app.json` 仅用于静态元数据与启动声明，字段如下：
+
+- 必填：`name`、`version`、`description`、`main_file`
+- 可选：`author`、`category`、`icon`、`tags`、`runtime`、`homepage`、`license`
+
+不再兼容历史字段：
+
+- `entry`（已删除，请统一为 `main_file`）
+- `id`（已删除；应用唯一 ID 由 `apps_index.json` 中的 `app_id` 提供）
+
+并且禁止在 `app.json` 写本地安装状态字段（例如 `install_path`、`is_installed`）。
+
 ## 📚 更多信息
 
 - [M20 应用开发指南](../M20-XML-GUI/README.md)
