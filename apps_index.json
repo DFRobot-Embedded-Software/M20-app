@@ -12,6 +12,19 @@
       "download": null,
       "icon_url": "icons/hello_world.png",
       "main_file": "main.py"
+    },
+    {
+      "app_id": "m20_setting",
+      "name": "M20 Setting",
+      "version": "1.0.0",
+      "description": "设备信息、Wi-Fi、蓝牙和语言设置（安卓风格）",
+      "category": "示例",
+      "author": "M20 Team",
+      "tags": ["m20","xml-gui"],
+      "repo": "https://github.com/wxzed/M20-Setting",
+      "download": null,
+      "icon_url": "icons/setting.png",
+      "main_file": "main.py"
     }
   ]
 }
