@@ -58,7 +58,6 @@ Fork 本仓库，修改 `apps_index.json`：
 - `repo`: 应用的独立 GitHub 仓库 URL（必需）
 - `download`: ZIP 下载直链（可选，优先使用 GitHub Release）
 - `icon_url`: 图标路径（相对于注册中心仓库）
-- `path`: **已废弃**，不再使用
 
 ### 3. 添加应用图标
 将应用图标放到 `icons/your_app_id.png`，建议尺寸 256x256 或 512x512。
@@ -100,22 +99,12 @@ Fork 本仓库，修改 `apps_index.json`：
 - `handlers.py` - 事件处理（可选）
 - `ui.xml` - 界面定义（可选）
 
-### app.json 统一规范（v1）
-
-`app.json` 仅用于静态元数据与启动声明，字段如下：
-
-- 必填：`name`、`version`、`description`、`main_file`
-- 可选：`author`、`category`、`icon`、`tags`、`runtime`、`homepage`、`license`
-
-不再兼容历史字段：
-
-- `entry`（已删除，请统一为 `main_file`）
-- `id`（已删除；应用唯一 ID 由 `apps_index.json` 中的 `app_id` 提供）
-
-并且禁止在 `app.json` 写本地安装状态字段（例如 `install_path`、`is_installed`）。
+`app.json` 规范由 AppStore 文档统一维护，避免多处重复：
+- 规范入口：[`M20-AppStore/docs/quick_start_github.md`](../M20-AppStore/docs/quick_start_github.md)
+- 本仓库仅维护 `apps_index.json` 与图标，不维护应用仓库内部字段规范细节。
 
 ## 📚 更多信息
 
 - [M20 应用开发指南](../M20-XML-GUI/README.md)
 - [m20gui 框架文档](../M20-XML-GUI/m20gui/)
-- [应用商店架构文档](../M20-XML-GUI/app_store/ARCHITECTURE.md)
+- [应用商店架构文档](../M20-AppStore/docs/architecture.md)
