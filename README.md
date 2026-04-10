@@ -2,6 +2,8 @@
 
 这是 M20 应用商店的**注册中心仓库**，负责维护应用索引和图标。
 
+**端到端流程**（设计器导出工程 → GitHub → 本仓库 PR → 商店安装）：见 [docs/publish_app_workflow.md](docs/publish_app_workflow.md)。
+
 ## 📁 仓库结构
 
 ```
